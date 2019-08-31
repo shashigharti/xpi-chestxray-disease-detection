@@ -2,7 +2,7 @@
 Low cost solution to detect pneumothorax using raspberry pi for remote areas where there are no radiologist
 
 ## Sign up for the hackathon
-Sign up for the hackathon here:
+Sign up for the hackathon here:https://pytorch.devpost.com/
 
 
 ## Main Requirement
