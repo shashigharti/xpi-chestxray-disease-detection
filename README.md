@@ -25,4 +25,6 @@ CheXpert is a large public dataset for chest radiograph interpretation, consisti
 https://stanfordmlgroup.github.io/competitions/chexpert/
 
 ## X-Pi: Model explanation
+Here is a nice explanation by Erin Hu regarding the X-Pi Model.
+
 https://www.youtube.com/watch?v=DH-LfOf_ia4&feature=youtu.be
