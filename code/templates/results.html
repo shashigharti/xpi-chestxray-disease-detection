@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="static/css/style.css"/>
+   </head>
+   <body>
+      <header class="site--header">
+         <div class="container-fluid">
+            <h1>ChestXray Disease Prediction</h1>
+         </div>
+      </header>
+      <div class="container-fluid">
+         <div class="panel--block result--block">
+            <h5>Search Result</h5>
+            <div class="result--image">
+               <img src="static/uploads/{{ result['name'] }}">
+            </div>
+            <div class="result--text">
+               <label>Diseases for: {{result['name']}}</label>
+               {%for output in result['class']%}
+               <h3>{{output[0]}}</h3>
+               Probability: {{"(" + output[1] + ")"}}
+               {%endfor%}
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
