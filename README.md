@@ -1,5 +1,5 @@
 # X-Pi
-Low cost solution to detect chest pathologies deployed on Raspberry Pi and Flask without radiologist
+Low cost solution to detect chest pathologies deployed on Raspberry Pi and Flask without radiologists
 
 https://www.youtube.com/watch?v=QC-d8nf_SdA&feature=youtu.be
 
