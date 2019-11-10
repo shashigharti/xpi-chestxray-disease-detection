@@ -12,5 +12,5 @@ These models are saved for fast loading when we continue to work on the model tr
 | Transfer Model Name | Additional Layers | # of Data Entries | Hyper Parameteres | Best Accuracy |
 | :---: | :---: | :---: | :---: | :---: |
 | ResNet50 | None | 50,000 | TBC | 78% |
-| Vgg16 | None | 50,000 | TBC | TBC |
+| Vgg16 | None | 50,000 | TBC | 77.66% |
 | Vgg16 | None | 50,000 | TBC | 79.15% |
